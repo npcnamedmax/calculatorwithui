@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100%">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+
+    <div class="header">Calculator</div>  <!--based on sl-300sv casio--> <!--take note that padding percentage is based on parent container, same goes to height/width...-->
+    <div id="content">
+      <div class = "flexc calculator">
+        <div class="head flexr">
+          <div class="brand">Casio</div>
+          <div class="solarcont flexr">
+            <div class="solar"></div>
+            <div class="solar"></div>
+            <div class="solar"></div>
+            <div class="solar"></div>
+          </div>
+        </div>
+        <div class="screenWrapper flexr">
+          <div class="screenLeft" id="screenLeft">
+            <div id="memIndicator"></div></div>
+          <div class="screenCenter flexrr" id="screenCenter">0</div>
+          <div class="screenRgt" id="screenRgt"></div>
+          
+        </div>
+        <div class="firstRow flexr">
+          <div class="upperleft ">SL-300SV</div>
+          <div class="upperright flexr">
+            <button class='uprbtns' data-type="off" value="off">OFF</button>
+            <button class='uprbtns' data-type="root" value="root">rt</button>
+          </div>
+        </div>
+        <div class="upper flexr">
+          <button class='lwrbtns' data-type="mem" value="clear">MC</button>
+          <button class='lwrbtns' data-type="mem" value="read">MR</button>
+          <button class='lwrbtns' data-type="mem" value="-">M-</button>
+          <button class='lwrbtns' data-type="mem" value="+">M+</button>
+          <button class='lwrbtns' data-type="operation" value="/">/</button>
+          <button class='lwrbtns' data-type="unit" value="%">%</button>
+          <button class='lwrbtns' data-type="digit" value="7">7</button>
+          <button class='lwrbtns' data-type="digit" value="8">8</button>
+          <button class='lwrbtns' data-type="digit" value="9">9</button>
+          <button class='lwrbtns' data-type="operation" value="*">*</button>
+          <button class='lwrbtns' data-type="prefix" value="+-">+/_</button>
+          <button class='lwrbtns' data-type="digit" value="4">4</button>
+          <button class='lwrbtns' data-type="digit" value="5">5</button>
+          <button class='lwrbtns' data-type="digit" value="6">6</button>
+          <button class='lwrbtns' data-type="operation" value="-">-</button>
+        </div>
+        <div class="lower flexr">
+          <div class="lowerleft flexr">
+            <button class='lwrbtns' data-type="clear" value="clear">C</button>
+            <button class='lwrbtns' data-type="digit" value="1">1</button>
+            <button class='lwrbtns' data-type="digit" value="2">2</button>
+            <button class='lwrbtns' data-type="digit" value="3">3</button>
+            <button class='lwrbtns' data-type="clear" value="allclear">AC</button>
+            <button class='lwrbtns' data-type="digit" value="0">0</button>
+            <button class='lwrbtns' data-type="postfix" value=".">.</button>
+            <button class='lwrbtns' data-type="equal" value="equal">=</button>
+          </div>
+          
+          <div class='test'><button class='lwrbtns plusbtn' data-type="operation" value="+">+</button></div>
+
+        </div>
+      </div>
+      
+    </div>
+    
+      <div class="footer"></div> 
+    
+  </body>
+  </html>
+</html>

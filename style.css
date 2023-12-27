@@ -1,0 +1,146 @@
+html, body {
+    height: 100%;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+#content {
+    margin: auto;
+    width: 20rem;
+    border: 3px solid black;
+    border-radius: 30px;
+    background-color: rgb(215 215 215);
+}
+
+
+.head {
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.brand {
+    font-size: 2rem;
+}
+
+.solarcont {
+    width: 7rem;
+    height: 2rem;
+}
+
+.solar {
+    flex: 1;
+    background-color: grey;
+    border: 1px solid;
+    border-color: black;
+}
+
+.screenWrapper {
+    background-clip: content-box; /* <---- */
+    box-shadow: inset 0 0 0 0.5rem darkgray; /* <-- 10px spread radius */
+    padding: 0.5rem;
+    min-height: 5rem;
+    border-radius: 30px;
+    margin-bottom: 1.5rem;
+}
+
+.screenLeft {
+    width: 5%;
+}
+
+.screenCenter {
+    overflow: hidden;
+    font-size: 3.02rem;
+    width: 90%;
+}
+
+.screenRgt {
+    width: 5%;
+}
+
+.calculator {
+    padding: 0.84rem;
+    height: 49.46%;
+}
+
+.flexc {
+    display: flex;
+    flex-direction: column;
+}
+
+.flexr {
+    display: flex;
+}
+
+.flexrr {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.upperleft {
+    flex: 3;
+}
+
+.upperright {
+    flex: 2;
+    gap: 0.5rem;
+    justify-content: center;
+}
+
+.upper {
+    flex: 3;
+    gap: 0.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+
+.lower {
+    flex: 2;
+    justify-content: center;
+}
+
+.lwrbtns {
+    width: 3.5em;
+    padding: 0.73em;
+    font-size: 0.9rem;
+    color: white;
+    background: black;
+    clip-path: polygon(90% 100%, 10% 100% , 0% 0, 100% 0);
+    border-radius: 30%;
+}
+
+.uprbtns {
+    width: 3.5em;
+    padding: 0.15em;
+    font-size: 0.9rem;
+    color: white;
+    background: black;
+    clip-path: polygon(90% 100%, 10% 100% , 0% 0, 100% 0);
+    border-radius: 30%;
+    margin-bottom: 0.5em;
+    float: right;
+}
+
+.lowerleft {
+    justify-content: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    flex: 4;
+}
+
+.test {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+
+
+
+
+
+
+
